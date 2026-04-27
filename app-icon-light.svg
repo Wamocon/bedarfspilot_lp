@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="BedarfsPilot App Icon">
+  <defs>
+    <linearGradient id="bp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="bp-plane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bp-bg)"/>
+  <!-- Clipboard body -->
+  <rect x="96" y="112" width="240" height="304" rx="32" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-width="14"/>
+  <!-- Clipboard clip -->
+  <rect x="176" y="80" width="80" height="48" rx="12" fill="#FFFFFF"/>
+  <!-- List lines -->
+  <line x1="144" y1="208" x2="272" y2="208" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" stroke-opacity="0.85"/>
+  <line x1="144" y1="256" x2="240" y2="256" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" stroke-opacity="0.55"/>
+  <line x1="144" y1="304" x2="256" y2="304" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" stroke-opacity="0.55"/>
+  <line x1="144" y1="352" x2="208" y2="352" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Paper plane -->
+  <path d="M416 96 L288 192 L336 208 L352 256 Z" fill="url(#bp-plane)" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Trail dots -->
+  <circle cx="280" cy="232" r="10" fill="#FFFFFF" fill-opacity="0.7"/>
+  <circle cx="256" cy="264" r="7" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="232" cy="288" r="5" fill="#FFFFFF" fill-opacity="0.35"/>
+</svg>
